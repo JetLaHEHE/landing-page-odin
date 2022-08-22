@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header,
+.main-content-1 {
+    background-color: #1F2937 ;
+}
+
+.header #header-logo {
+    display: flex;
+}
+
+.header ul {
+    color: white;
+    display: flex;
+    gap: 20px;
+}
+
+.main-content-1 {
+    display: flex;
+    color: white;
+    padding: 10px;
+    padding-left: 200px;
+    justify-content: center;
+}
+
+.main-content-1 .left-side {
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+}
+
+.main-content-1 .left-side h1 {
+    font-family: Roboto;
+    font-size: 48px;
+    width: 450px;
+}
+
+.main-content-1 .left-side p {
+    font-size: 18px;
+    width: 450px;
+}
+
+.main-content-1 button {
+    width: 100px;
+    background-color: lightblue;
+}
+
+#dinakdakan {
+    display: flex;
+    width: 250px;
+    height: auto;
+}
